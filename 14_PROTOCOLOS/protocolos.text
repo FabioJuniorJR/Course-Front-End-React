@@ -1,0 +1,42 @@
+PROTOCOLOS WEB
+Http - solicita arquivos, imagens
+SMTP - protocolo para enviar email
+TCP - protocolos para transferencia de dados
+
+URLs
+tradução - Uniform Resource Locator
+exemplo:    
+    https://developerFullStack.com.br/index.html
+    https - é o protocolo
+    developerFullStack.com.br - é o dominio
+    index.html - é o arquivo que vai ser acessado
+
+HTML
+tradução - Hyper Text Markup Language,linguagem demarcação
+É a estrutura do Front End do projeto
+
+DOM
+Mostra aorganização do codigo emforma de lista
+São as divisoes em topos e nós, como uma ARVORE
+
+Axios
+É uma biblioteca JavScript para requisições HTTP
+Cria requisições http para buscar informações
+
+REACT
+1- É uma biblioteca JAVASCRIPT
+2- Single Page Aolication SPA
+3-A sua Arquitetura é baseado em Components
+
+Vite
+1- É para começar a criar umprojeto REACT
+2-executara o npm de forma amis rapida do que o convencional creat-react-app
+3-Utilizaremos o npm creat vbite@latest
+
+
+O que eu tenho ate agora
+HTML
+CSS
+JAVASCRIPT
+Axios
+POO 

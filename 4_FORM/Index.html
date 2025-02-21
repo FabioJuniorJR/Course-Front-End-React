@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>FORMULARIOS html</h2>
+    <!-- 1 - Primeiroformulario      -->
+    <!-- 2 - Atributos do formulario -->
+    <form action="register.php" method="">
+        <!--action registra dados desteformularioemalgum lugar/omethodfazalgumacoisa(ver funcionalidades)-->
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <!-- 3 - Atrivuto name -->
+        <!--O name serve para resgatar e fazercom o servidor encvontre um dadode algumcampo utilizando o atributo NAME-->
+        <div>
+            <!-- 4 - atributo label-->
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 5 - envio de formulario -->
+        <input type="submit" value="enviar dados formulario">
+        <!-- 6 - Select -->
+        <div>
+            <label for="job">Selecione uma profissão:</label>
+            <select name="job" id="">
+                <option value="Programador Junior">Programador Junior</option>
+                <option value="Programador Pleno">Programador Pleno</option>
+                <option value="Programador Senior">Programador Senior</option>
+                <option value="Data Base ADM ORACLE">Data Base ADM ORACLE</option>
+            </select>
+        </div>
+        <!-- 7 - Selected -->
+        <div>
+            <label for="contract">Voce leu os termos de acordo</label>
+            <select name="contract">
+                <option value="sim">sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <!-- 8 - Select Multiple Option -->
+        <div>
+            <label for="job">Selecione uma profissão:</label>
+            <select name="job" id="">
+                <option value="Programador Junior">Programador Junior</option>
+                <option value="Programador Pleno">Programador Pleno</option>
+                <option value="Programador Senior">Programador Senior</option>
+                <option value="Data Base ADM ORACLE">Data Base ADM ORACLE</option>
+            </select>
+        </div>
+        <!-- 9 - TextArea -->
+        <!--Dispoe uma area maior de  texto-->
+        <div>
+            <Label for="comment">Escreva a baixo o texto desejado !!! </Label>
+            <textarea name="comment" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <!--10 - fildset e legend-->
+        <div>
+            <fieldset>
+                <legend>Preencha as suas informações</legend>
+                <label for="firstname">Primeiro nome: </label>
+                <input type="text" name="firstname">
+                <label for="lastname">Sobrenome: </label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+        <!--11 - DataList -->
+        <!-- tem autocomplete, podemos pesquisar valores -->
+        <div>
+            <label for="flavors">Escolhao sabor:</label>
+            <input type="text" name="flavor" id=""
+                list="flavors"><!--Pode implementar um auto delete e escolher novamente-->
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Baunilha"></option>
+                <option value="Ovomaltine"></option>
+            </datalist>
+        </div>
+        <!--12 - Input senha -->
+        <!-- Mascarar os digitos e exibir-->
+        <div>
+            <label for="flavors">Digite a sua senha:</label>
+            <input type="password" name="password" id="">
+
+        </div>
+        <!--13 - Reiniciando form-->
+        <!-- Apagaos caracteres do form-->
+        <div>
+            <label for="flavors">Digite a sua senha:</label>
+            <input type="reset" value="Limpar" name="" id="">
+
+        </div>
+        <!--14 - Input radio-->
+        <!-- Seleciona umaopção de muitas-->
+        <div>
+            <label for="car model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="BMW" name="car_model">
+                <label for="BMW">BMW</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="Ferrari" name="car_model">
+                <label for="Ferrari">Ferrari</label>
+            </div>
+        </div>
+        <!--15 - CheckBox-->
+        <!-- Seleciona uma opção ou mais-->
+        <div>
+            <label for="optionals">Opcional de carro:</label>
+            <div>
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="optionals[]" value="Turbo">
+                <label for="Turbo">Turbo Compressor</label>
+            </div>
+            <div>
+                <input type="checkbox" name="optionals[]" value="Aerofólio">
+                <label for="Aerofólio">Aerofólio</label>
+            </div>
+            <div>
+                <input type="checkbox" name="optionals[]" value="Rodas">
+                <label for="Rodas">Rodas</label>
+            </div>
+            <div>
+                <input type="checkbox" name="optionals[]" value="Aero_Kit">
+                <label for="Aero_Kit">Aero Kit</label>
+            </div>
+            <!--16 - Input de data-->
+            <!-- -->
+            <div>
+                <label for="birthday">Data de Nascimento:</label>
+                <input type="date" name="birthday">
+            </div>
+            <!--17 - Input de arquivos-->
+            <!-- -->
+            <div>
+                <label for="image">Insira sua imagem:</label>
+                <input type="file" name="">
+            </div>
+            <!--18 - Input de numeros-->
+            <!-- -->
+            <div>
+                <label for="salario">Quanto ganha no emprego atual:</label>
+                <input type="number" name="salary">
+            </div>
+            <!--19 - Input de emails-->
+            <!-- Verifica se o email esta certo apenas se tiver o botão de enviar -->
+            <div>
+                <label for="email">Informe seu email:</label>
+                <input type="email" name="email">
+            </div>
+            <!--20 - Input de valor pré preenchido-->
+            <!-- Deixamos um campo já com umvalor padrão -->
+            <div>
+                <label for="email">Digite um valor: </label>
+                <input type="text" name="value" value="Valor padrão será este texto">
+            </div>
+            <!--21 - disable-->
+            <!-- Fica um campo sem opção de preencher -->
+            <div>
+                <input type="text" name="value" value="Desabilitado,nao precisa preencher" disabled>
+            </div>
+            <!--22 - placeholder-->
+            <!-- Fica uma dica no próprio campo -->
+            <div>
+                <label for="email">Digite sua profissão: </label>
+                <input type="text" name="currentjob" placeholder="Digite no que voce esta trabalhando agora"">
+            </div>
+            <!--23 - required-->
+            <!-- Nao deixa a pagiona atualizar ou prosseguir se n]antes nao preencher o campo -->
+            <div>
+                <label for="email"> Digite Nome(Obrigatório): </label>
+                <input type="text" name="currentjob" placeholder="Digite no que voce esta trabalhando agora"" required>
+            </div>
+            
+
+        </div>
+    </form>
+</body>
+
+</html>

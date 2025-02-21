@@ -1,0 +1,18 @@
+/*
+Ordem Preferencia CSS
+-> Mantem o ultimo lido, do 1 ao 3.
+1. INLINE
+2. INTERNAL
+3. EXTERNAL
+*/
+
+/* 4 - External CSS*/
+h3{
+    color: blueviolet;
+    font-size: 40px;
+    background-color: blanchedalmond;
+}
+
+h6{
+    color: rgb(43, 226, 226);
+}
