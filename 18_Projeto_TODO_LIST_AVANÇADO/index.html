@@ -18,16 +18,16 @@
             <h1>Todo Avançado</h1>
         </header>
 
-        <form id="todo-form">
+        <form id="todo-form2" action="">
             <p>Adicione sua tarefa:</p>
         
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="O que voce vai fazer ?">
+                <button type="submit">
+                    <i class="fa-thin fa-plus">Adiciona</i>
+                </button>
+            </div>
 
-        <div class="form-control">
-            <input type="text" id="todo-input" placeholder="O que voce vai fazer ?">
-            <button type="submit">
-                <i class="fa-thin fa-plus"></i>
-            </button>
-        </div>
         </form>
 
         <form id="edit-form">
@@ -55,13 +55,13 @@
                 <h4>Filtrar:</h4>
                 <select name="" id="filter-select">
                     <option value="All">Todos</option>
-                    <option value="Done">Feitos</option>
+                    <option value="done">Feitos</option>
                     <option value="Todo">A fazer</option>
                 </select>
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>Estudando React</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
