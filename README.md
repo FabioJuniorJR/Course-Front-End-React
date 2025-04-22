@@ -5,9 +5,13 @@ Aqui você encontrará projetos e exercícios que desenvolvi durante o curso, ut
 
 🚀 Tecnologias Utilizadas
 HTML5 — Estruturação de páginas web.
+
 CSS3 — Estilização e responsividade.
+
 JavaScript — Lógica de programação, manipulação de dados e interatividade.
+
 React.js — Desenvolvimento de interfaces modernas e reativas.
+
 Java (Spring Boot) — Projetos back-end (disponíveis em outro repositório).
 
 
