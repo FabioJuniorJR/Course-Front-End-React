@@ -15,6 +15,7 @@ React.js — Desenvolvimento de interfaces modernas e reativas.
 Java (Spring Boot) — Projetos back-end (disponíveis em outro repositório).
 
 
+
 📂 Módulos e Projetos Desenvolvidos
 Módulo / Projeto	Descrição
 1_HTML - Fundamentos de HTML5 para estruturação de páginas web.
