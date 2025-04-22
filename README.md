@@ -5,18 +5,13 @@ Aqui você encontrará projetos e exercícios que desenvolvi durante o curso, ut
 
 🚀 Tecnologias Utilizadas
 HTML5 — Estruturação de páginas web.
-
 CSS3 — Estilização e responsividade.
-
 JavaScript — Lógica de programação, manipulação de dados e interatividade.
-
 React.js — Desenvolvimento de interfaces modernas e reativas.
-
 Java (Spring Boot) — Projetos back-end (disponíveis em outro repositório).
 
 
 📂 Módulos e Projetos Desenvolvidos
-
 Módulo / Projeto	Descrição
 1_HTML - Fundamentos de HTML5 para estruturação de páginas web.
 2_CSS	- Aplicação de estilos e conceitos de layout responsivo.
@@ -41,14 +36,10 @@ Cada projeto demonstra habilidades específicas e progressão no uso de tecnolog
 
 🌱 Próximos Passos
 Aprofundar em React (hooks avançados, context API e testes).
-
 Evolução contínua no Back-End com Java Spring Boot.
-
 Práticas de Clean Code e padrões de projeto.
 
 🤝 Contato
 💼 LinkedIn (www.linkedin.com/in/perfil-fabioacojuniorprofessional)
-
 📧 Email: fjrcorreoli@gmail.com
-
 ⚙️ Repositórios de back-end Java: Acesse aqui ()
