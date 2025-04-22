@@ -56,10 +56,15 @@ Cada projeto demonstra habilidades específicas e progressão no uso de tecnolog
 
 🌱 Próximos Passos
 Aprofundar em React (hooks avançados, context API e testes).
+
 Evolução contínua no Back-End com Java Spring Boot.
+
 Práticas de Clean Code e padrões de projeto.
+
 
 🤝 Contato
 💼 LinkedIn (www.linkedin.com/in/perfil-fabioacojuniorprofessional)
+
 📧 Email: fjrcorreoli@gmail.com
+
 ⚙️ Repositórios de back-end Java: Acesse aqui ()
